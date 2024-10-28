@@ -1,0 +1,258 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* image{
+    width: 5%;
+    height: 5%;
+} */
+body{
+    background-color: #f8f8f8;
+}
+header{
+    height: 35px;
+    /* width: 70%; */
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 7px;
+    background-color: #f8f8f8;
+
+   
+}
+span{
+    color: #5050f8;
+}
+h6{
+    font-size: 14px;
+}
+
+.orange{
+    color: #ea6551;
+}
+.blue{
+    color: #5050f8;
+}
+.something{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 10px;
+}
+.firstrow{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    height: 50px;
+    gap: 10px;
+    font-weight: bold;
+}
+.container{
+    width: 100%;
+    height: 600px;
+    background-color: #eeeeee;
+        display: flex;
+        justify-content: center; /* Горизонтальное выравнивание */
+        align-items: center;    /* Вертикальное выравнивание */
+    
+}
+hr{
+    color: grey
+}
+.underthecontainer{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+h4{
+    font-size: 32px;
+}
+.inpurple{
+    color: white;;
+}
+p{
+    font-size: 20px;
+    font-weight: lighter;
+    /* color: gray; */
+}
+ main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.tcth{
+    height: 65%;
+}
+iframe {
+    width: 1100px;
+    height: 550px;
+    padding-top: 60px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.fribs{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 100px;
+}
+.bothside{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 70px;
+}
+.width{
+    height:55% ;
+}
+.ls{
+    padding: 30px;
+}
+.lastphoto{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+            background-size: cover;
+            background-position: center;
+            
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 930px;
+    height: 400px;
+    background-color: #b5c4fa;
+    margin-left: 200px;
+    margin-right: 200px;
+    /* display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px; */
+}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+footer div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+footer h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer form {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+footer input[type="email"] {
+    padding: 5px;
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+footer button {
+    padding: 5px 15px;
+    background-color: #0000ff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: #0000cc;
+}
+
+footer select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 5px;
+    display: block;
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+footer .social-media {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+footer .social-media a img {
+    width: 24px;
+    height: 24px;
+}
+
+footer .legal-links, footer .location-lang, footer .social-media {
+    display: flex;
+    align-items: center;
+}
+
+footer .legal-links p {
+    margin-right: 10px;
+}
+
+
+
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .photo {
+            flex: 1;
+            background-image: url('photo.jpg'); /* Replace with actual image URL */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+        }
+        .content {
+            flex: 1;
+            background-color: #e0e4ff;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
